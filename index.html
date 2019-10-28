@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var p0=new google.maps.LatLng(-22.0087086,-47.8909142);
+
+var r1_p1=new google.maps.LatLng(-22.0028329,-47.9024570);
+var r1_p2=new google.maps.LatLng(-21.9983357,-47.9111014);
+
+var r2_p1=new google.maps.LatLng(-22.0141298,-47.9152178);
+var r2_p2=new google.maps.LatLng(-22.0105490,-47.9143595);
+var r2_p3=new google.maps.LatLng(-22.0093160,-47.9148750);
+var r2_p4=new google.maps.LatLng(-22.0058140,-47.9204110);
+
+var r3_p1=new google.maps.LatLng(-22.0447620,-47.8847910);
+var r3_p2=new google.maps.LatLng(-22.0600360,-47.8792120);
+
+function initialize()
+{
+var mapProp = {
+  center:p0,
+  zoom:12,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+<!-- Radar 1 -->
+var myTrip=[r1_p1,r1_p2];
+var flightPath=new google.maps.Polyline({
+  path:myTrip,
+  strokeColor:"#0000FF",
+  strokeOpacity:0.8,
+  strokeWeight:3
+  });
+
+flightPath.setMap(map);
+
+<!-- Radar 2 -->
+var myTrip=[r2_p1,r2_p2,r2_p3,r2_p4];
+var flightPath=new google.maps.Polyline({
+  path:myTrip,
+  strokeColor:"#00FF00",
+  strokeOpacity:0.8,
+  strokeWeight:3
+  });
+
+flightPath.setMap(map);
+
+<!-- Radar 3 -->
+var myTrip=[r3_p1,r3_p2];
+var flightPath=new google.maps.Polyline({
+  path:myTrip,
+  strokeColor:"#FF0000",
+  strokeOpacity:0.8,
+  strokeWeight:3
+  });
+
+flightPath.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<h3>Localiza&ccedil;&atilde;o dos radares - S&atilde;o Carlos</h3>
+<div id="googleMap" style="width:600px;height:480px;"></div>
+<table style="width:100%">
+  <tr>
+    <td><b></b><font size="4" color="#0000FF">RADAR 1</font></b></td>
+    <td>Av. Miguel Petroni (bairro/rodovia) 60 km/h</td>		
+  </tr>
+  <tr>
+    <td><b></b><font size="4" color="#00FF00">RADAR 2</font></b></td>
+    <td>Av. Bruno Ruggiero Filho (bairro/shopping) 60 km/h</td>	
+  </tr>
+  <tr>
+    <td><b></b><font size="4" color="#FF0000">RADAR 3</font></b></td>
+    <td>Av. Morumbi (centro/bairro) 50 km/h</td>		
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+127.0.0.1 - - [17/Apr/2016 18:01:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2016 18:01:43] code 404, message File not found
+127.0.0.1 - - [17/Apr/2016 18:01:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Apr/2016 18:01:47] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [17/Apr/2016 18:02:05] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:13:50] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:13:53] code 404, message File not found
+127.0.0.1 - - [21/Apr/2016 16:13:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Apr/2016 16:13:53] code 404, message File not found
+127.0.0.1 - - [21/Apr/2016 16:13:53] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [21/Apr/2016 16:16:11] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:16:35] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:17:50] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:18:11] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:40:25] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:43:52] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:44:14] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:45:59] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:47:45] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:50:20] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:50:55] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:51:13] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:53:54] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 16:54:53] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 17:00:06] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 17:00:49] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 17:03:00] "GET /maps.html HTTP/1.1" 200 -
+127.0.0.1 - - [21/Apr/2016 19:06:39] "GET / HTTP/1.1" 200 -

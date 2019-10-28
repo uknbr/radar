@@ -1,0 +1,28 @@
+insert into tableX values ('AC', 'Acre');
+insert into tableX values ('AL', 'Alagoas');
+insert into tableX values ('AP', 'Amapá');
+insert into tableX values ('AM', 'Amazonas');
+insert into tableX values ('BA', 'Bahia');
+insert into tableX values ('CE', 'Ceará');
+insert into tableX values ('DF', 'Distrito Federal');
+insert into tableX values ('ES', 'Espírito Santo');
+insert into tableX values ('GO', 'Goiás');
+insert into tableX values ('MA', 'Maranhão');
+insert into tableX values ('MT', 'Mato Grosso');
+insert into tableX values ('MS', 'Mato Grosso do Sul');
+insert into tableX values ('MG', 'Minas Gerais');
+insert into tableX values ('PA', 'Pará');
+insert into tableX values ('PB', 'Paraíba');
+insert into tableX values ('PR', 'Paraná');
+insert into tableX values ('PE', 'Pernambuco');
+insert into tableX values ('PI', 'Piauí');
+insert into tableX values ('RJ', 'Rio de Janeiro');
+insert into tableX values ('RN', 'Rio Grande do Norte');
+insert into tableX values ('RS', 'Rio Grande do Sul');
+insert into tableX values ('RO', 'Rondônia');
+insert into tableX values ('RR', 'Roraima');
+insert into tableX values ('SC', 'Santa Catarina');
+insert into tableX values ('SP', 'São Paulo');
+insert into tableX values ('SE', 'Sergipe');
+insert into tableX values ('TO', 'Tocantins');
+commit
