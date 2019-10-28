@@ -1,5 +1,5 @@
 # Radar
-![alt text](radar.png "Radar - São Carlos")\
+![alt text](radar.png "Radar - São Carlos")
 
 ## Description
 It is an attempt to automate radar information on my city.\
